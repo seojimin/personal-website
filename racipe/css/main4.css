@@ -1,0 +1,26 @@
+@import url(reset.css);
+
+/* main1.css */
+
+*{-webkit-text-size-djust:none;}
+body{position:relative;color:#666;font-size:14px;font-family:Helvetica,AppleGothic, "맑은 고딕"; width:100%;
+			background:#fd632b; background-size:100%;}
+a,a:link{color:#333;text-decoration:none;}
+a:visited{color:#333;}
+a:hover,a:active{color:#333;text-decoration:none;}
+
+
+/* layout */
+body{width:100%;}
+section{position:relative;width:100%;height:580px;overflow:hidden;}
+footer{width:100%;text-align:center;}
+
+/* header */
+
+/* section */
+section > div{padding-left:30%;padding-top:130px;}
+section > div > p{width:1455px;height:1832px;background:url(../images/lodingicon2.png) no-repeat 0 0;}
+
+section > p{width:100%;position:absolute;bottom:150px;color:#fff;text-align:center;}
+
+/* footer */

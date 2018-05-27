@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8"/>
+	<title> Second Cup redesinged by SEO </title>
+	<link rel="stylesheet" type="text/css" href="css/normalize1.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<script src="js/registration.js"></script>
+</head>
+
+<body>
+<div>
+	<!-- header -->
+	<header>
+		<h1 class="logo"><a href="index.html"><img src="images/main_logo.jpg" alt="Home" width="200" height="100"/></a></h1>
+		<h4> &copy; 2018 Jimin Seo 145803169 </h4>
+	</header>
+	<!-- //header -->
+	<hr />
+
+	<div id="container">
+		<!-- aside -->
+		<div class="aside">
+			<ul id="tabMenu" class="tabMenu">
+				<li class="menu1"><a href="index.html">HOME</a></li>
+				<li class="menu2"><a href="registration.html">Registration</a></li>
+				<li class="menu3"><a href="goods.html">GOODS</a></li>
+			</ul>
+		</div>
+		<!-- //aside -->
+		<hr />
+	 
+		<!-- registration -->
+		<div class="registration">
+				<h3>Account Information</h3>
+				<form action ="https://httpbin.org/post" method ="post" onsubmit = "return Validation();">
+
+				<table class = "regist_table">
+						<tbody>
+							<tr>
+								<td class="firstChild">User Name</td>
+								<td><input type="text" size="20" name="userName" id="userName" required="required"/></td>
+							</tr>
+							<tr>
+								<td class="firstChild">Password</td>
+								<td><input type="password" name="password_" id="password_" required="required"/></td>
+							</tr>
+							<tr>
+								<td class="firstChild">Confrimed Password</td>
+								<td><input type="password" name="cfpword" id="cfpword" required="required"/></td>
+							</tr>
+							<tr>
+								<td class="firstChild">Province</td>
+								<td><input type="text" list="province" name="province" value ="Ontario"  required="required"/>
+									<datalist id="province">
+											<option value="Alberta">AB</option>
+											<option value="British Columbia">BC</option>
+											<option value="Manitoba">MB</option>
+											<option value="New Brunswick">NB</option>
+											<option value="Newfoundland">NF</option>
+											<option value="Nova Scotia">NS</option>
+											<option value="Ontario">ON</option>
+											<option value="Prince Edward Is.">PE</option>
+											<option value="Quebec">QC</option>
+											<option value="Saskatchewan">SK</option>
+											<option value="Northwest Territories">NW</option>
+											<option value="Nunavut">NU</option>
+											<option value="Yukon">YU</option>
+										</datalist>
+								</td>
+							</tr>
+							<tr>
+								<td class="firstChild">Street Name</td>
+								<td><input type="text" name="stName" id="stName" required="required" placeholder = "ex) Troyer ave" /></td>
+							</tr>
+							<tr>
+								<td class="firstChild">Email</td>
+								<td><input type="email" name="email" id="email" required="required" placeholder="ex)jseo22@myseneca.ca"/></td>
+							</tr>
+							<tr>
+								<td class="firstChild">Phone Number</td>
+								<td><input type="tel" name="pNumber" id="pNumber" required="required" placeholder="ex) 647-675-2121"/></td>
+							</tr>
+							<tr>
+								<td class="firstChild">Zip Code</td>
+								<td><input type="text" name="zipCode" id="zipCode" required="required" placeholder="ex) M3J0A3"/></td>
+							</tr>
+							<tr>
+								<td class="firstChild">City</td>
+								<td><input type="text" name="city" id="city" required="required" placeholder="ex) Toronto"/></td>
+							</tr>
+							<tr>
+								<td colspan="2"><input type="submit" value="Submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<input type="reset" value="Clear">
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2"><!--Hidden type !-->
+									<input type="hidden" name="lname" id="lname" value="Seo"/><br /><br />
+									<input type="hidden" name="studentId" id="studentId" value="145-803-169" />
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+		</div>
+		<!-- //registration -->
+		<hr />
+
+		<!-- alert -->
+		<div id="alert">
+			<aside>
+				<h3> alert <h4>
+				<p id= "ErrorMessage"></p>
+			</aside>
+		</div>
+		<!-- //alert -->
+	</div>
+	<!-- //body id contatiner -->
+	<hr />
+
+	<!-- footer -->
+	<footer>
+		<div class="footer_inner">
+			<p><a href="http://www.secondcup.com"><img src="images/footer_logo.png" alt="second cup website" width="98" height="70"/></a></p>
+			<h4> &copy; 2018 Jimin Seo 145803169 </h4>
+			<ul class="footer_ul">
+				<li>Contact Us</li>
+				<li>Press Room</li>
+				<li>Privacy, Terms & Conditions</li>
+				<li>Careers</li>
+				<li>Gift Card</li>
+				<li class="last">FAQ</li>
+			</ul>
+		</div><!-- //footer_inner -->
+	</footer>
+	<!-- //footer -->
+</div>
+</body>
+</html> 

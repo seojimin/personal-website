@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>recipe_상세페이지</title>
+<meta name="viewport" content="width=divice-width,initial-scale=1.0, maximum-scale=1.0,minimun-scale=1.0, user-scalable=no " />
+
+<!-- 색상 바의 색상을 정하는 코드 -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+<!-- 모바일 웹을 웹앱형태로 설정하는 코드 (풀스크린 형태로)-->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- 바로가기 아이콘: 아이폰, 안드로이드 둘다 적용 -->
+<link rel="apple-touch-icon-precomposed" href=".png" />
+<!-- 인트로 화면을 설정하는 코드 -->
+<link rel="apple-touch-startup-image" href=".png" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<link rel="stylesheet" type="text/css" href="css/recipe.css"/>
+<link rel="stylesheet" type="text/css" href="css/gnb.css"/>
+</head>
+<body>
+<header>
+	<h1 class="logo"><a href="gnb.html"><img src="images/logo.png" alt="로고" /></a></h1>
+	<a href="menu_best.html" class="backBtn"><img src="images/back_Btn.png" alt="뒤로가기버튼" /></a>
+	<a href="#" class="allMenuBtn"><img src="images/rollMenu.png" alt="전체메뉴버튼" /></a>	
+		<!-- 전체메뉴 -->
+	<div class="allMenuBg"></div>
+	<div class="allMenu">
+		<a href="#" class="closeBtn"><img src="images/closeBtn.png" alt="전체메뉴닫기" /></a>
+		<div class="user"><p>홍길동<br /><span>Seoul,Korea</span></p></div>
+		<ul>
+		<li><a href="#">내정보변경</a></li>
+		<li><a href="#">설정</a></li>
+		</ul>
+		<ul class="mobileGnb">
+		<li><a href="#">빨간국물</a></li>
+		<li><a href="#">하얀국물</a></li>
+		<li><a href="#">짜장라면</a></li>
+		<li><a href="#">비빔라면</a></li>
+		<li><a href="#">볶음라면</a></li>
+		<li><a href="#">냉라면</a></li>
+		<li><a href="#">PB제품</a></li>
+		<li><a href="#">퓨전라면</a></li>
+		</ul>
+		<a href="#" class="logoutBtn"><img src="images/logout.png" alt="로그아웃" /></a>
+	</div>
+	<!-- //전체메뉴 style="overflow-x:hidden;overflow-y:hidden;"-->
+</header>
+<hr />
+<div class="main_wrap">
+	<article>
+		<div class="visual">
+			<p><img src="images/re_top.png" alt="라시피이미지" /></p>
+			<h2>냉라면 샐러드</h2>
+		</div>
+		<div class="recipe">
+			<ul>
+			<li><span>1인분</span></li>
+			<li><span>30분 이내</span></li>
+			<li><span>누구나</span></li>
+			</ul>
+			<dl>
+				<dt>재료<span>Ingredients</span></dt>
+				<dd>라면1봉,물 2컵,달걀 삶은 것 1개,오이 약간, 쇠고기 혹은 돼지고기 삶은것 약간,물1컵,물김치국물 1컵,참기름 1큰술 ,깨소금 1작은 술, 식초 1큰술, 사이다 1/4컵,겨자약간, 고춧가루 1/2작은술</dd>
+			</dl>
+			<h3><img src="images/step.png" alt="레시피순서" /></h3>
+			<article style="overflow-x:hidden;">
+				<ul class="step">
+				<li><img src="images/cold1.JPG" alt="냉라면 샐러드 레시피1" /></li>
+				<li><img src="images/cold2.JPG" alt="냉라면 샐러드 레시피2" /></li>
+				<li><img src="images/cold3.JPG" alt="냉라면 샐러드 레시피3" /></li>
+				<li><img src="images/cold4.JPG" alt="냉라면 샐러드 레시피4" /></li>
+				</ul>
+				<ul class="txt" >
+				<li>칵테일 새우를 끓는물에 데친 뒤 찬물에 헹궈 물기를 빼서 준비한다.</li>
+				<li>빨강,노랑 파프리카는 씨를 제거하고 0.5cm정도의 두께로 채 썰고 양상추도 파프리카와 같은 크기로 채를 썬다.</li>
+				<li>끓는 물에 라면을 넣고 삻은 뒤 얼음물에 행궈 체에 건져 물기를 빼서 차게 준비한다.</li>
+				<li>그릇에 칵테일 새우와 어린잎 채소,방울토마토,파프리카,양상추,라면을 돌려 담고 땅콩버터 드레싱을 뿌려준다.</li>
+				</ul>
+			</article>
+		</div>
+		<div class="foot">
+			<a href="#"><img src="images/spoon_like2.png" alt="레시피 좋아요 누르기" /></a>
+			<ul>
+			<li><a href="#"><img src="images/sns_f.png" alt="페이스북 공유하기" /></a></li>
+			<li><a href="#"><img src="images/sns_t.png" alt="트위터 공유하기" /></a></li>
+			<li><a href="#"><img src="images/sns_k.png" alt="카카오톡 공유하기" /></a></li>
+			</ul>
+		</div>
+		<a href="menu_best.html" class="closeBtn2"><img src="images/closeBtn2.png" alt="레시피닫기" /></a>
+	</article>
+</div>
+<hr />
+<footer>
+</footer>
+</body>
+</html>

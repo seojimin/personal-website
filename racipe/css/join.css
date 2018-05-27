@@ -1,0 +1,54 @@
+@import url(reset.css);
+
+/* join.css */
+
+*{-webkit-text-size-djust:none;}
+body{color:#666;font-size:14px;font-family:Helvetica,AppleGothic, "맑은 고딕";}
+a,a:link{color:#333;text-decoration:none;}
+a:visited{color:#333;}
+a:hover,a:active{color:#333;text-decoration:none;}
+form input{font-family:Helvetica,AppleGothic, "맑은 고딕";}
+
+/* layout */
+
+body > header{position:relative;width:100%;background:#fd632b;height:40px;}
+body > section{width:100%;}
+
+
+/* header */
+
+/* header */
+header > h1{font-size:16px;letter-spacing:1px;font-weight:bold;color:#fff;text-align:center;line-height:40px;}
+header > a.backBtn{position:absolute;top:9px;left:9px;}
+
+
+
+
+/* 로그인 */
+.login > form{text-align:center; width:98%; margin:0 auto;}
+.login p:nth-of-type(1) input,.login p:nth-of-type(2) input{border:none; border-bottom:1px solid #333;  width:98%; margin:0 auto;
+			padding:20px 0 10px 0;font-size:20px; color:#c7c7c7; font-weight:bold; text-indent:20px; }
+
+
+.autoLog{position:relative;float:right;padding-right:10px; height:60px; padding-top:10px;}
+.autoLog > h2{float:left; font-size:15px; padding-top:14px;}
+.autoLog > input{float:left; margin-top:8px;}
+.autoLog > a{position:absolute; right:10px; top:20px; right:45px;display:block; background:#d1d1d1;width:30px; height:30px;box-shadow:0 0 2px #666;
+						border-radius:15px; overflow:hidden; text-indent:-9999px; }
+
+
+.loginBtn{clear:both; background:#fd632b;text-align:center; width:98%; margin:0 auto; padding:10px 0; margin-bottom:20px;}
+.loginBtn a{display:block;color:#fff; font-size:20px;letter-spacing:9px;}
+
+.login ul{height:70px; width:98%;margin:0 auto;}
+.login ul li{display:inline;padding-right:13%;}
+.login ul li:nth-of-type(2){padding-right:30px;}
+.login ul li a{color:#aaa; font-weight:bold; border-bottom:1px solid #aaa; padding-bottom:5px;}
+
+
+
+.snsLog{clear:both; width:98%; margin:0 auto;}
+.snsLog a{display:block; padding:10px 0; font-size:20px; margin-bottom:20px; }
+.snsLog a img{margin-right:10px;}
+.snsLog a:nth-of-type(1){background:#3a5a97; color:#fff;}
+.snsLog a:nth-of-type(2){background:#f8ec00; color:#000; margin-bottom:0;}

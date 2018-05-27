@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+   <title>레시피 사진 올리기</title>
+   <meta name="viewport" content="width=divice-width,initial-scale=1.0, maximum-scale=1.0,minimun-scale=1.0, user-scalable=no " />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="apple-touch-icon-precomposed" href=".png" />
+<link rel="apple-touch-startup-image" href=".png" />
+
+	<link rel="stylesheet" type="text/css" href="css/upload.css" />
+	
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+<script>
+// <![CDATA[
+	try	{
+		window.accEventListener('load' , function(){ //주소입력창 사라지게하는 코드
+			setTimeout(scrollTo, 0, 0, 1);
+		}, false);
+	} catch(e) {}
+// ]]>
+</script>
+
+ </head>
+
+ <body>
+	<!-- header -->
+	<header>
+		<h1 class="logo"><a href="gnb.html"><img src="images/logo.png" alt="로고" /></a></h1>
+		<a href="menu_best.html" class="backBtn"><img src="images/back_Btn.png" alt="뒤로가기" /></a>
+		<a href="#" class="uploadBtn"><img src="images/upload.png" alt="업로드확인" /></a>
+		<div class="allMenu">
+			<a href="#" class="closeBtn"><img src="images/closeBtn.png" alt="전체메뉴닫기" /></a>
+			<div class="user"><p>홍길동<br /><span>Seoul,Korea</span></p></div>
+			<ul>
+			<li><a href="#">내정보변경</a></li>
+			<li><a href="#">설정</a></li>
+			</ul>
+			<ul class="mobileGnb">
+			<li><a href="#">빨간국물</a></li>
+			<li><a href="#">하얀국물</a></li>
+			<li><a href="#">짜장라면</a></li>
+			<li><a href="#">비빔라면</a></li>
+			<li><a href="#">볶음라면</a></li>
+			<li><a href="#">냉라면</a></li>
+			<li><a href="#">PB제품</a></li>
+			<li><a href="#">퓨전라면</a></li>
+			</ul>
+			<a href="join.html" class="logoutBtn"><img src="images/logout.png" alt="로그아웃" /></a>
+		</div>
+		
+	</header>
+	<!--// header -->
+	<!-- container -->
+	<div id="container">
+		<section>
+			<h2>완성요리 사진을 넣어주세요</h2>
+			<p><button id="addItemBtn" alt="파일업로드" ><img src="images/uploadBtn.png" alt="사진 업로드"  /></button></p>
+			<form action="" method="post" > 
+				<fieldset>
+					<legend class="blind">요리이름작성</legend>
+					<input type="text"  size="30" maxlength="7"   style="height:40px; width:22%; text-align: center; padding:2px 6px 4px 2px; 
+					border:1px dashed  gray;"
+					value="요리 이름" onclick="this.select()">
+				</fieldset>
+			</form>
+		</section>
+
+		<section>
+			<h2>재료 : <span>재료를 상세히 적어주세요.</span></h2>
+			<form action="" method="post" > 
+				<fieldset>
+					<legend class="blind">요리이름작성</legend>
+					<textarea style="border:none; resize:none;"></textarea>
+				</fieldset>
+			</form>
+		</section>
+			
+		<section>
+			<h2>레시피 : <span>조리법을 상세히 적어주세요.</span> </h2>
+			<ul id="uproad_Img">
+				<li><a href="#" class="up1"><img src="images/uploadBtn.png" alt="조리법 업로드" /></a></li>
+				<li><a href="#" class="up2"><img src="images/uploadBtn.png" alt="조리법 업로드" /></a></li>
+				<li><a href="#" class="up3"><img src="images/uploadBtn.png" alt="조리법 업로드" /></a></li>
+				<li><a href="#" class="up4"><img src="images/uploadBtn.png" alt="조리법 업로드" /></a></li>
+			</ul>
+			<ol>
+				<li><span>1</span></li>
+				<li><span>2</span></li>
+			</ol>
+			<form> 
+				<fieldset>
+					<legend class="blind">조리법 작성</legend>
+					<input type="text"  size="230" maxlength="7"   style="height:30px; width:80%; text-align: left; padding:2px 6px 4px 2px; 
+					border:none; border-bottom:1px dashed  gray;"
+					 onclick="this.select()">
+					<input type="text"  size="230" maxlength="7"   style="height:30px; width:80%; text-align: left; padding:2px 6px 4px 2px; 
+					border:none; border-bottom:1px dashed  gray;"
+					 onclick="this.select()">
+					<input type="text"  size="230" maxlength="7"   style="height:30px; width:80%; text-align: left; padding:2px 6px 4px 2px; 
+					border:none; border-bottom:1px dashed  gray;"
+					 onclick="this.select()">
+					<input type="text"  size="230" maxlength="7"   style="height:30px; width:80%; text-align: left; padding:2px 6px 4px 2px; 
+					border:none; border-bottom:1px dashed  gray;"
+					 onclick="this.select()">
+
+				</fieldset>
+			</form>
+		</section>
+	</div>
+	<!-- //container -->
+
+	<footer>
+		<ul>
+			<li><a href="#"><img src="images/cameraBtn.png" alt="사진고르기" /></a></li>
+			<li><a href="#"><img src="images/photoBtn.png" alt="사진찍기" /></a></li>
+			<li><a href="#"><img src="images/videoBtn.png" alt="동영상고르기" /></a></li>
+		</ul>
+	</footer>
+	
+
+
+ </body>
+</html>

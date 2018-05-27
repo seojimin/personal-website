@@ -1,0 +1,22 @@
+@import url(reset.css);
+
+/* main1.css */
+
+*{-webkit-text-size-djust:none;}
+body{color:#666;font-size:14px;font-family:Helvetica,AppleGothic, "맑은 고딕"; width:100%;background:#fd632b;}
+a,a:link{color:#333;text-decoration:none;}
+a:hover,a:active{text-decoration:none;text-shadow:0 0 1px #fff;}
+footer{position:relative;}
+
+/* layout */
+
+/* header */
+
+/* section */
+
+section{text-align:center;padding-top:50px;width:60%; margin:0 auto;}
+
+section p{color:#fff; font-size:14px; font-weight:bold;}
+
+section a:first-of-type img{margin-top:60px; padding-left:25px;}
+section a:last-of-type{display:block;margin-top:30px;padding-left:9px;}

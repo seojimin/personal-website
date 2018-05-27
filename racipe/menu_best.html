@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>볶음라면 레시피 - 인기순</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no "/>
+<!-- 상태바의 생상을 정하는 코드 -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<!-- 모바일웹을 웹앱 형태로 설정하는 코드 -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<!-- 바로가기 아이콘, 아이폰 안드로이드 둘다적용 -->
+<link rel="apple-touch-icon-precomposed" href=".png" />
+<!-- 인트로 화면을 설정하는 코드 -->
+<link rel="apple-touch-startup-image" href=".png" />
+<link rel="stylesheet" type="text/css" href="css/menu_best.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script>
+// <![CDATA[
+	try {
+		window.addEventListner('load',function() { //주소입력창 사라지게 하는 코드
+			setTimeout(scrollTo, 0, 0, 1);	
+		}, false);
+	} catch(e) {}
+// ]]>
+</script>
+</head>
+<body>
+<header>
+	<a href="gnb.html" class="backBtn"><img src="images/back_Btn.png" alt="뒤로가기버튼" /></a>
+	<h2>볶음라면 레시피</h2>
+	<a href="#" class="allMenuBtn"><img src="images/rollMenu.png" alt="전체메뉴보기버튼" /></a>
+	<!-- 전체메뉴 -->
+	<div class="allMenuBg"></div>
+	<div class="allMenu">
+		<a href="#" class="closeBtn"><img src="images/closeBtn.png" alt="전체메뉴닫기" /></a>
+		<div class="user"><p>홍길동<br /><span>Seoul,Korea</span></p></div>
+		<ul>
+		<li><a href="#">내정보변경</a></li>
+		<li><a href="#">설정</a></li>
+		</ul>
+		<ul class="mobileGnb">
+		<li><a href="menu_best.html">빨간국물</a></li>
+		<li><a href="menu_best.html">하얀국물</a></li>
+		<li><a href="menu_best.html">짜장라면</a></li>
+		<li><a href="menu_best.html">비빔라면</a></li>
+		<li><a href="menu_best.html">볶음라면</a></li>
+		<li><a href="menu_best.html">냉라면</a></li>
+		<li><a href="menu_best.html">PB제품</a></li>
+		<li><a href="menu_best.html">퓨전라면</a></li>
+		</ul>
+		<a href="join.html" class="logoutBtn"><img src="images/logout.png" alt="로그아웃" /></a>
+	</div>
+	<!-- //전체메뉴 -->
+</header>
+<section>
+	<div>
+		<p>자신만의 독특한 레시피를 올리고 <br /> SNS로 공유해 보세요</p>
+	</div>
+	<section>
+		<dl>
+			<dt><a href="recipe.html"><img src="images/best1.jpg" alt="매운고추잡채라면" /><span>매운고추잡채라면</span></a></dt>
+			<dd><span>By</span>라면사랑</dd>
+			<dd><a href="recipe.html">우리나라 사람들이 좋아하는 매운맛을 고추를...</a><p><img src="images/spoon_like.png" alt="좋아요버튼" /><span>273<span></p></dd>
+			<dd><img src="images/best1.png" alt="best1" /></dd>
+		</dl>
+		<dl>
+			<dt><a href="recipe2.html"><img src="images/best2.jpg" alt="스팸해물볶음면" /><span>스팸해물볶음면</span></a></dt>
+			<dd><span>By</span>Ramen100</dd>
+			<dd><a href="recipe2.html">밥도둑 스팸과 다양한 제철 해산물을 이용하...</a><p><img src="images/spoon_like.png" alt="좋아요버튼" /><span>248<span></p></dd>
+			<dd><img src="images/best2.png" alt="best2" /></dd>
+		</dl>
+		<dl>
+			<dt><a href="recipe.html"><img src="images/best3.jpg" alt="소고기볶음라면" /><span>소고기볶음라면</span></a></dt>
+			<dd><span>By</span>오나라</dd>
+			<dd><a href="recipe.html">라면으로도 가족의 부족한 영양을 채워주고 또...</a><p><img src="images/spoon_like.png" alt="좋아요버튼" /><span>198<span></p></dd>
+			<dd><img src="images/best3.png" alt="best3" /></dd>
+		</dl>
+		<dl>
+			<dt><a href="recipe2.html"><img src="images/best4.jpg" alt="부추고기볶음면" /><span>부추고기볶음면</span></a></dt>
+			<dd><span>By</span>이거라면</dd>
+			<dd><a href="recipe2.html">언제나 맛있는 고기와 채소를 이용해서 신선한...</a><p><img src="images/spoon_like.png" alt="좋아요버튼" /><span>150<span></p></dd>
+			<dd><img src="images/best4.png" alt="best4" /></dd>
+		</dl>
+	</section>
+</section>
+<footer>
+	<ul>
+	<li><a href="menu_new.html">최신순</a></li>
+	<li><a href="menu_best.html">인기순</a></li>
+	<li><a href="recipe_upload.html">공유하기</a></li>
+	</ul>
+</footer>
+</body>
+</html>

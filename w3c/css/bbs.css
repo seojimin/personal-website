@@ -1,0 +1,90 @@
+@import url(reset.css);
+
+/* main */
+body{font-size:12px;font-family:Dotum,"돋움",Helvetica,AppleGothic,sans-serif;text-align:center;color:#444;}
+a{text-decoration:none;color:#444;}
+a:hover{text-decoration:underline;color:#444;}
+
+/* layout */
+#wrap{text-align:left;margin:0 auto;width:1280px;}
+	#header{/*position:fixed;left:315px;top:0;*/float:left;z-index:30;position:absolute;height:1000px;width:196px;padding-left:4px;background:url(../images/lnb_bg.png) repeat-y 0 0;}
+	#container{float:right;width:1085px;}
+		#content{z-index:20;position:relative;float:left;width:910px;}
+		.aside{/*position:fixed;right:310px;top:0;*/float:left;width:162px;background:url(../images/snb_op_bg.png) no-repeat 0 0;}
+	#footer{z-index:30;position:relative;top:620px;width:190px;right:-10px;}
+
+/* header */
+.logo{padding:20px 2px;}
+.topMenu{padding-left:20px;font-size:11px;padding-bottom:50px;}
+.topMenu dd{float:left;padding-right:6px;margin-right:6px;background:url(../images/b01.gif) no-repeat 100% 0;}
+.topMenu dd a:hover{text-decoration:none;}
+.topMenu dd.last{background:none;}
+
+/* gnb */
+.gnb{z-index:40;position:relative;}
+.gnb li{margin-bottom:5px;}
+
+ul.sub{display:none;position:absolute;top:-20px;left:170px;}
+ul.sub2{display:none;position:absolute;top:55px;left:170px;}
+ul.sub3{display:none;position:absolute;top:130px;left:170px;}
+ul.gnb_bg{background:url(../images/gnb_2dep_bg_t.png) no-repeat 0 0;width:206px;padding-top:30px;}
+li.sub_1{background:url(../images/gnb_2dep_bg_b.png) no-repeat 0 100%;width:206px;padding-bottom:23px;}
+ul li.sub_1 ul li{padding-left:50px;padding-bottom:7px;margin-bottom:7px;background:url(../images/snb_pro_line.gif) no-repeat 50% 100%; width:180px;}
+ul li.sub_1 a:hover{padding-left:10px;text-decoration:none;color:#d7020c;font-weight:bold;background:url(../images/hover_arrow.png) no-repeat 0 50%;}
+.header_menu{padding-left:10px;}
+
+/* content_t */
+div.content_t{padding:18px 0 0 50px;height:105px;background:url(../images/header_bg02.gif) no-repeat 100% 100%;}
+.content_t p{margin-bottom:25px;}
+.content_t p a{padding-right:10px;background:url(../images/breadCrumb_b.gif) no-repeat 100% 50%;font-size:11px;}
+div.content_t p a.img_none{background:none;}
+
+/* content */
+#content form.con_form{float:right;height:35px;width:348px;margin-top:20px;}
+#name{width:100px;height:23px;vertical-align:top;color:#777;}
+input{vertical-align:top;}
+
+/* table */
+table{clear:both;width:790px;margin-left:65px;margin-bottom:20px;}
+table th, td{padding:0 20px 0;text-align:center;height:30px;padding-bottom:9px;padding-top:9px;border-bottom:1px solid #d9d9d9;border-right:1px solid #d9d9d9;}
+table th{font-weight:bold;background-color:#f6f6f6;border-top:1px solid #bbb;}
+.txt{text-align:left;padding-left:30px;}
+.num_line{border-right:none;}
+table .table_no{padding:0 30px 0;}
+
+/* number_btn */
+p.number_btn{text-align:center;}
+p.number_btn a{padding:0 6px 0;}
+p.number_btn a:hover{text-decoration:none;color:red;font-weight:bold;}
+p.number_btn a.btn_firstN{padding:0;}
+.number_1{margin-left:5px;}
+.number_10{margin-right:5px;}
+
+/* aside */
+.close_btn{float:right;margin:2px 1px 15px 0;}
+
+.aside_apply ul li{padding-bottom:10px;margin-top:10px;background:url(../images/snb_pro_line.gif) no-repeat 60% 100%;}
+.aside_apply ul li a{display:block;text-indent:-9999px;overflow:hidden;width:136px;height:41px;margin-left:20px;}
+.aside_1 a{background:url(../images/snb_pro_view01.png) no-repeat 0 0;}
+.aside_2 a{background:url(../images/snb_pro_view02.png) no-repeat 0 0;}
+.aside_3 a{background:url(../images/snb_pro_view03.png) no-repeat 0 0;}
+.aside_4 a{background:url(../images/snb_pro_view04.png) no-repeat 0 0;}
+.aside_5 a{background:url(../images/snb_pro_view05.png) no-repeat 0 0;}
+.aside_6 a{background:url(../images/snb_pro_view06.png) no-repeat 0 0;}
+.aside_apply a:hover{background-position:0 -41px;}
+.last_aside{border-bottom:1px solid #e5e5e5;margin-left:5px;margin-bottom:57px;padding:10px 0 20px 15px;}
+
+.aside p.buy{padding-left:15px;}
+ul.aside_family li a{display:block;text-indent:-9999px;overflow:hidden;width:140px;height:29px;margin-left:10px;margin-top:7px;}
+.aside_8 a{background:url(../images/snb_b_menu02.png) no-repeat 0 0;}
+.aside_9 a{background:url(../images/snb_b_menu03.png) no-repeat 0 0;}
+.aside_10 a{background:url(../images/snb_b_menu04.png) no-repeat 0 0;}
+.aside_11 a{background:url(../images/snb_b_menu05.png) no-repeat 0 0;}
+.aside_family a:hover{background-position:0 -29px;}
+.aside_logo{text-indent:-9999px;overflow:hidden;background:url(../images/snb_op_b_maerk.gif) no-repeat 0 100%;width:162px;height:70px;padding-bottom:88px;}
+
+/* footer */
+#footer ul{height:30px;}
+#footer ul li{float:left;padding-right:3px;margin-right:3px;background:url(../images/b03.gif) no-repeat 100% 50%;}
+#footer ul li.footer_none{background:none;}
+#family{width:160px;height:20px;border:1px solid #ccc;color:#777;margin:20px 0 40px 5px;}

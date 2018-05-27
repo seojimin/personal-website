@@ -1,0 +1,15 @@
+<div id header width100% position relative 헤더를 기준으로!>
+	div class="header inner" margin 0 auto> 
+		<ul class="gnb">
+		<li>큰메뉴
+			<ul width100% position:absolute; 헤더를 기준으로 100%>
+			<li margin0 auto width:**px; position relative>
+				<ul left:**px; >
+				li 하위메뉴 /li
+				</ul> 
+			</li>
+			</ul>
+		</li>
+		</ul>
+	</div>
+</div>

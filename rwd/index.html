@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<title> CJ Oshopping </title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="css/main.css" /> 
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script> 
+<script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script> <!-- jQuery는 mobile지원안해서 따로 꽂아줘야해 -->
+<script type="text/javascript" src="js/autoBanner_main.js"></script>
+<script type="text/javascript" src="js/autoBanner_news.js"></script>
+<script type="text/javascript" src="js/allMenu.js"></script> 
+<script type="text/javascript" src="js/main.js"></script> <!-- 순서가 중요 main 이 가장 마지막으로 와야해 -->
+</head>
+<body>
+<!-- header -->
+<header>
+	<!-- 본문바로가기 -->
+	<div id="skipNavi"><a href="#content">본문바로가기</a></div>
+	<!-- logo -->
+	<p class="moreMenu"><a href="#"><img src="images/btn_menu.png" alt="메뉴버튼" /></a></p>
+	<!-- <p class="top_search"><a href="#"><img src="images/btn_search.png" alt="검색돋보기" /></a></p> -->
+	<h1><a href="index.html"><img src="images/logo.png" alt="cj오쇼핑" /></a></h1>
+	<!-- top menu -->
+	<dl class="topMenu">
+		<dt class="blind">sns, 언어변경, 사이트맵</dt>
+		<dd class="sns"><a href="#"><img src="images/facebook_icon.gif" alt="facebook바로가기" /></a></dd>
+		<dd class="sns"><a href="#"><img src="images/blog_icon.gif" alt="blog바로가기" /></a></dd>
+		<dd class="sns"><a href="#"><img src="images/brochure_icon_rt.gif" alt="글로벌 웹 브라우저 다운로드" /></a></dd>
+		<dd class="sns"><a href="#"><img src="images/twitter_rt_icon.gif" alt="twiter바로가기" /></a></dd>
+		<dd><a href="#"><img src="images/util_eng.gif" alt="english" /></a></dd>
+		<dd><a href="#"><img src="images/util_sitemap.gif" alt="site map" /></a></dd>
+		<dd><a href="#"><img src="images/logo_cjmall.gif" alt="cjmall바로가기" /></a></dd>
+	</dl>
+</header>
+<!-- //header -->
+<hr />
+<!-- container -->
+<div id="container">
+<!-- gnb -->
+<nav class="gnb">
+	<h2 class="blind">주 메뉴</h2>
+	<ul id="gnb">
+	<li><span></span>
+	<a href="#">ABOUT US</a>
+		<ul>
+		<li><a href="#">회사 소개</a></li>
+		<li><a href="#">CEO 인사말</a></li>
+		<li><a href="#">NEWS</a></li>
+		<li><a href="#">서비스 인프라</a></li>
+		<li><a href="#">지나온 길</a></li>
+		<li><a href="#">CI</a></li>
+		<li><a href="#">오시는 길</a></li>
+		<li><a href="#">사옥견학 안내</a></li>
+		</ul>
+	</li>
+	<li><a href="#">DOMESTIC</a>
+		<ul>
+		<li><a href="#">사업개요</a></li>
+		<li><a href="#">TV홈쇼핑</a></li>
+		<li><a href="#">T커머스</a></li>
+		<li><a href="#">인터넷 쇼핑</a></li>
+		<li><a href="#">모바일 쇼핑</a></li>
+		<li><a href="#">카탈로그</a></li>
+		</ul>
+	</li>
+	<li><a href="#">GLOBAL</a>
+		<ul>
+		<li><a href="#">사업개요</a></li>
+		<li><a href="#">글로벌 사이트</a></li>
+		<li><a href="#">소싱 컴퍼니 CJ IMC</a></li>
+		</ul>
+	</li>
+	<li><a href="#">ONLYONE BRAND</a>
+		<ul>
+		<li><a href="#">ONLYONE BRAND</a></li>
+		</ul>
+	</li>
+	<li><a href="#">CSV</a>
+		<ul>
+		<li><a href="#">동반성장</a></li>
+		<li><a href="#">사회공헌</a></li>
+		</ul>
+	</li>
+	<li><a href="#">IR</a>
+		<ul>
+		<li><a href="#">주가정보</a></li>
+		<li><a href="#">재무정보</a></li>
+		<li><a href="#">IR자료</a></li>
+		<li><a href="#">공지사항</a></li>
+		<li><a href="#">이사회</a></li>
+		</ul>
+	</li>
+	<li><a href="#">RECRUIT</a>
+		<ul>
+		<li><a href="#">CJ 채용 프로세스</a></li>
+		<li><a href="#">CJ 인사제도</a></li>
+		<li><a href="#">JOB PREVIEW</a></li>
+		<li><a href="#">채용공고</a></li>
+		</ul>
+	</li>
+	<li><a href="#">입점 / 입찰안내</a>
+		<ul>
+		<li><a href="#">입점안내</a></li>
+		<li><a href="#">입찰공고</a></li>
+		<li><a href="#">열린감사실</a></li>
+		</ul>
+	</li>
+	</ul>
+	<form action="#" method="post">
+	<fieldset>
+	<legend class="blind">검색</legend>
+		<label for="sbox2" class="blind">검색어 입력</label>
+		<input type="search" id="sbox2" placeholder="검색어 입력" />
+		<input type="image" src="images/search.png" alt="검색" />
+	</fieldset>
+	</form>
+</nav>
+<!-- //gnb -->
+	<!-- main_banner -->
+	<section class="banner_auto">
+		<ul class="main_banner">
+			<li><a href="#" id="aGallery2"><img src="images/visual_bnn_01.png" alt="on air" id="gallery"/></a></li>
+			<li><a href="#" id="aGallery2"><img src="images/visual_bnn_02.png" alt="on air" id="gallery"/></a></li>		
+			<li><a href="#" id="aGallery2"><img src="images/visual_bnn_03.png" alt="on air" id="gallery"/></a></li>	
+			<li><a href="#" id="aGallery2"><img src="images/visual_bnn_04.png" alt="on air" id="gallery"/></a></li>
+		</ul>
+		<p class="onAir_time" id="onAir_time"><a href="#">ON AIR 마감시간 <span>00:31:48</span></a></p>
+		<!--
+		<div class="arrow">
+			<a class="prev" href="#"><img src="images/btn_prev.png" alt="이전" /></a>
+			<a class="next" href="#"><img src="images/btn_next.png" alt="다음" /></a>
+		</div>-->
+		<ul class="main_roll" id="main_roll">
+			<li><a href="images/visual_bnn_01.png"><img src="images/state_over.png" alt="뉴스1" /></a></li>
+			<li><a href="images/visual_bnn_02.png"><img src="images/state_out.png" alt="뉴스2" /></a></li>
+			<li><a href="images/visual_bnn_03.png"><img src="images/state_out.png" alt="뉴스3" /></a></li>
+			<li><a href="images/visual_bnn_04.png"><img src="images/state_out.png" alt="뉴스4" /></a></li>
+		</ul>
+	</section>
+	<!-- //main_banner -->
+	<hr />
+	<div class="content">
+		<section class="onair">
+			<header class="onair_header">
+			<a href="#">
+			<h2>ON AIR</h2>
+			<h3>라둥이 투명 썬젤 <span>LIVE</span></h3>
+			<p class="more"><img src="images/plus-button2.png" alt="더보기" /></p>
+			</a>
+			</header>
+		</section>
+		<section class="csv">
+			<header class="csv_header">
+			<a href="#">
+			<h2>CSV</h2>
+			<h3>상생이념을 통해 함께 성장하고 사회에 공헌하는 CSV 프로그램을 안내합니다.</h3>
+			<p class="more"><img src="images/plus-button.png" alt="더보기" /></p></a>
+			</header>
+		</section>
+		<section class="recruit">
+			<header>
+			<a href="#">
+			<h2>RECRUIT</h2>			
+			<ul>			
+				<li>CJ 채용</li>
+				<li>프로세스 CJ</li>
+				<li>인사제도 CJ</li>
+			</ul>
+			<p class="more"><img src="images/plus-button.png" alt="더보기" /></p>
+			</a>
+			</header>
+		</section>
+		<section class="domestic">
+			<header><a href="#">
+			<h2>DOMESTIC BUSINESS</h2>
+			<h3>Trendy Lifestyle Shopper with value</h3>
+			<p class="more"><img src="images/plus-button.png" alt="더보기" /></p>
+			</a>
+			</header>
+		</section>
+		<section class="global">
+			<header><a href="#">
+			<h2>GLOBAL BUSINESS</h2>
+			<h3>GLOBAL No.1 lifestyle Media Shopping Leader</h3>
+			<p class="more"><img src="images/plus-button2.png" alt="더보기" /></p></a>
+			</header>
+		</section>
+		<section class="news" id="news">
+			<header class="news_header">
+			<h2><a href="#">NEWS</a></h2>
+			<a href="#" id="aGallery"><img src="images/news_1.png" alt="CJ오쇼핑" id="large"/></a>
+			<ul class="news_roll" id="news_roll">
+				<li><a href="images/news_1.png"><img src="images/blt_over.png" alt="뉴스1" /></a><p>- 16일 협력사 60여곳 초청 '파트너스 클럽' 행사 개최</p></li>
+				<li><a href="images/news_2.png"><img src="images/blt_out.png" alt="뉴스2" /></a><p>- 5월 29일 AK플라자 수원점에 CJ오쇼핑 다섯 번째 오프라인 매장오픈</p></li>
+				<li><a href="images/news_3.png"><img src="images/blt_out.png" alt="뉴스3" /></a><p>- 최신핫 키워드 테마로 구성된 총 4개의 신규 프로그램 론칭</p></li>
+				<li><a href="images/news_4.png"><img src="images/blt_out.png" alt="뉴스4" /></a><p>- 6월 1일 공중파 4개 채널 통해 700만 가구 송출</p></li>
+				<li><a href="images/news_5.png"><img src="images/blt_out.png" alt="뉴스5" /></a><p>-‘소통’과 ‘공감’의 대명사 최화정 CJ오쇼핑 합류</p></li>
+			</ul>
+			</header>
+		</section>
+		<section class="onlyone">
+			<header>
+			<a href="#">
+			<h2>ONLYONE BRAND</h2>
+			<h3>Creation of unique brands exclusive to CJ OShopping</h3>
+			<p class="more"><img src="images/plus-button2.png" alt="더보기" /></p>
+			</a>
+			</header>
+		</section>
+		<section class="investor">
+			<header>
+			<a href="#">
+			<h2>INVESTOR RELATION</h2>
+			<h4>business for stockholders, potential investors, and financial analysts</h4>
+			</a>
+			<ul>
+			<li><a href="#"><strong>재무 정보</strong>
+				<ul>
+				<li>연도별 CJ오쇼핑의 실적을 확인하세요.</li>
+				</ul></a>
+			</li>
+			<li><a href="#"><strong>공시 정보</strong>
+				<ul>
+				<li>CJ오쇼핑의 주요 경영활동을<br />공시합니다.</li>
+				</ul></a>
+			</li>			
+			<li><a href="#"><strong>IR자료</strong>
+				<ul>
+				<li>주요 보도자료와 회사소개를<br />확인하세요.</li>
+				</ul></a>
+			</li>
+			</ul>
+			</header>
+			<figure>
+			<img src="images/4_investor_bg.gif" alt="investor background" />
+			<figcaption class="blind">주요보도자료와 회계자료를 링크로 확인하세요</figcaption>
+			</figure>
+		</section>
+	</div><!-- //content -->
+</div>
+<!-- //container -->
+<hr />
+<!-- footer -->
+<footer>
+	<address>
+		<span>(주)CJ오쇼핑 | 대표이사:허민희 (06761)서울시 서초구 과천대로 870-13(주)CJ오쇼핑(방배동 2724번지) 사업자 등록번호 106-81-1510 | CJ오쇼핑 대표전화:02-2107-0114</span>
+		<span>CJ오쇼핑 물류센터:02-2107-1114 | 개인정보 관리책임자 IT담당 양희영 고객센터:1644-2525 | FAX:02-2107-1009 </span>
+	</address>
+	<p><small>Copyright &copy; 2000-2014 CJ O Shopping All Rights Reserved. Contact Webmaster for more information</small></p>
+	<ul class="footer_menu">
+	<li><a href="#">법적고지</a></li>
+	<li><a href="#">이메일무단수집거부</a></li>
+	<li><a href="#">이용약관</a></li>
+	<li><a href="#"><strong>개인정보취급방침</strong></a></li>
+	<li><a href="#">고객센터</a></li>
+	</ul>
+	<dl class="foot_sns">
+		<dt class="blind">sns</dt>
+		<dd class="sns"><a href="#"><img src="images/facebook_icon.gif" alt="facebook바로가기" /></a></dd>
+		<dd class="sns"><a href="#"><img src="images/blog_icon.gif" alt="blog바로가기" /></a></dd>
+		<dd class="sns"><a href="#"><img src="images/brochure_icon_rt.gif" alt="글로벌 웹 브라우저 다운로드" /></a></dd>
+		<dd class="sns"><a href="#"><img src="images/twitter_rt_icon.gif" alt="twiter바로가기" /></a></dd>
+	</dl>
+	<p class="go_companies"><a href="#">CJ그룹 계열사 바로가기</a></p>
+	<ul class="cj_companies">
+	<li>CJ그룹
+		<ul>
+		<li><a href="#">CJ주식회사</a></li>
+		</ul>
+	</li>
+	<li>신유통
+		<ul>
+		<li><a href="#">CJ오쇼핑</a></li>
+		<li><a href="#">CJ대한통운</a></li>
+		<li><a href="#">CJ텔레닉스</a></li>
+		<li><a href="#">CJ올리브네트웍스</a></li>
+		</ul>
+	</li>
+	<li>식품 & 식품서비스
+		<ul>
+		<li><a href="#">CJ제일제당</a></li>
+		<li><a href="#">CJ프레시웨이</a></li>
+		<li><a href="#">CJ푸드빌</a></li>
+		<li><a href="#">CJ엠디원</a></li>
+		</ul>
+	</li>
+	<li>생명공학
+		<ul>
+		<li><a href="#">CJ제일제당</a></li>
+		<li><a href="#">CJ헬스케어</a></li>
+		</ul>
+	</li>
+	<li>엔터테인먼트 & 미디어
+		<ul>
+		<li><a href="#">CJ E&M</a></li>
+		<li><a href="#">CJ CGV</a></li>
+		<li><a href="#">CJ헬로비전</a></li>
+		<li><a href="#">CJ파워캐스트</a></li>
+		</ul>
+	</li>
+	<li>인프라
+		<ul>
+		<li><a href="#">CJ건설</a></li>
+		</ul>
+	</li>
+	</ul>
+</footer>
+<!-- //footer -->
+
+</body>
+</html>
+  

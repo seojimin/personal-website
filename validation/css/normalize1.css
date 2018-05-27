@@ -1,0 +1,65 @@
+/* Jimin Seo 145803169 jseo22@myseneca.ca */
+
+/*google font url (font-family: 'Open Sans', sans-serif;)*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/* bold */
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+/* **************************** main css */
+/* whole frame setting*/
+html {color:#ffffff;font-family: 'Open Sans'; -ms-text-size-adjust: 100%; width:1200px;overflow-y: scroll;}
+a{text-decoration:none;}
+
+/* body background css */
+body {background: url('../images/bg.jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;
+	background-color: #000000;font-family: 'Open Sans', sans-serif;width:100%;}
+body #container{height:100%;} 
+
+/* header css */
+header{background: #000000;height:110px;width:100%;}
+header h1{padding-left:50px;padding-top:5px;float:left;}
+header h4{font-size:13px;float:right;padding:5px;margin-top:78px;margin-right:15px;color:#5a5a5a;}
+
+/* aside css */
+.aside #tabMenu{float:left;font-size:60px;padding-left:50px;padding-top:130px;font-family: 'Roboto', sans-serif;}
+.aside #tabMenu li a{color:	#ffffff;}
+.aside #tabMenu li a:hover{color:#00F5FF;}
+.aside #tabMenu .menu1{color:#000000;font-size:73px;}
+.aside #tabMenu .menu2{color:#5a5a5a;font-size:38px;border-bottom:5px solid black;border-top:5px solid black;  padding:4px 0;}
+.aside #tabMenu .menu3{color:#000000;font-size:64px;}
+
+/* delare css */
+.delare{border:4px solid black; padding:40px 20px 20px;height:200px;width:800px;text-align:center;float:right;
+	background-color: rgba(0,0,0,0.1);margin-right:200px;margin-top:120px;margin-bottom:125px;line-height:180%; }
+
+/* footer css */
+footer{width:100%;height:118px;background-color: rgba(0,0,0,0.7);color:#cec7c7;font-size:14px;clear:both;}
+footer p{float:right;margin-right:42px;margin-top:30px}
+footer h4{float:left;padding:20px;margin-top:50px;}
+footer ul.footer_ul{position:relative; left:450px;}
+footer ul.footer_ul li{float:left;padding-right:10px;padding-left:10px;margin-top:70px;border-right:1px solid #cec7c7;}
+footer ul.footer_ul li:last-of-type{border:none;}
+
+/* **************************** registration */
+/*css div class = registration css*/
+div.registration{border:4px solid black;background-color: rgba(0,0,0,0.3);float:left;padding:10px;
+	height:450px;width:550px;overflow:auto;margin:17px 0 18px 120px;}
+div.registration h3{font-size:20px;font-family: 'Roboto', sans-serif;text-align: center;padding-bottom:20px;}
+table.regist_table td{padding:8px;text-align: center; padding-right:20px;padding-left:20px;}
+table.regist_table td.firstChild{width:240px; border-right:2px solid black;}
+table.regist_table td:last-of-type{padding-left:40px;width:200px;}
+table.regist_table td input{padding:2px;}
+
+
+/* alert css */
+#alert{border:4px solid black;float:right;padding:10px;margin-right:30px;margin-top:80px;height:300px;width:200px;overflow:auto;}
+#alert h3{font-family: 'Roboto', sans-serif;color:black; font-size:20px;text-align: center;border-bottom:2px solid black; padding-bottom:4px;}
+
+/* **************************** goods */
+/* table css */
+div.maintable{border:4px solid black;background-color: rgba(0,0,0,0.3);width:860px;height:425px;overflow:auto;
+	float:left;margin-left:120px;margin-top:30px;margin-bottom:30px;padding:10px;}
+.goods_table tr{border-bottom:2px solid #ffffff;}
+.goods_table tr:last-of-type{border:none;}
+.goods_table td{padding-right:20px;padding-bottom:20px;}
+.goods_table td span{font-family: 'Roboto', sans-serif;}

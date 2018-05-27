@@ -1,0 +1,110 @@
+@import url(reset.css);
+
+/* main */
+body{font-size:12px;font-family:Dotum,"돋움",Helvetica,AppleGothic,sans-serif;text-align:center;color:#666;}
+a{text-decoration:none;color:#666;}
+a:hover{text-decoration:underline;color:#666;}
+
+/* layout 
+<div id header width100% position relative 헤더를 기준으로!>
+	div class="header inner" margin 0 auto> 
+		<ul class="gnb">
+		<li>큰메뉴
+			<ul width100% position:absolute; 헤더를 기준으로 100%>
+			<li margin0 auto width:**px; position relative>
+				<ul left:**px; >
+				li 하위메뉴 /li
+				</ul> 
+			</li>
+			</ul>
+		</li>
+		</ul>
+	</div>
+</div>*/
+
+#wrap{width:100%;text-align:left;background:url(../images/main_heaer_bg.png) repeat-x 0 0;}
+	#header{position:relative;/*position:fixed;left:0;right:0;*/height:52px;width:1350px;margin:0 auto;}
+	#container{position:relative;width:1350px;margin:0 auto;}
+		#content{width:1350px;}
+		#content:after{content:"";display:block;clear:both;}
+	#footer{width:100%;height:320px;background:#f1f5f6;border-top:1px solid #ededed;}
+		.footer_inner{padding-right:74px;padding-top:60px;width:1278px;height:210px;margin:0 auto;}
+
+/* header */
+h1{float:left;padding:7px 0 0 10px;}
+.topMenu{float:right;width:400px;}
+.topMenu dd{margin-left:5px;float:left;padding-top:10px;}
+.topMenu .util_line{padding-left:10px;margin-left:8px;margin-top:7px;background:url(../images/util_line.gif) no-repeat -2px 100%;}
+dd.first{margin-top:7px;}
+.last{margin-right:30px;}
+
+/* container */
+/* main_visual */
+.main_visual{position:relative;height:439px;width:1200px;}
+dl.tabMenu dd{z-index:1;position:absolute;left:0;top:0;}
+dl.tabMenu dt{z-index:3;position:relative;top:377px;left:117px;float:left;margin-right:15px;}
+
+/* gnb */
+ul.gnb li{float:left;height:78px;}
+
+/* content */
+h3{padding:20px;}
+
+/* customer bg이미지를 처음부터 같은 size로 만들고 center를 맞춰주면 중간에 오게된다/ li의 width height를 맞춰주고 bg position을 50%로 맟춰주어도된다. */
+div.customer{float:left;width:400px;}
+.customer li{float:left;padding-bottom:20px;margin-right:48px;}
+.customer a{display:block;text-indent:-9999px;overflow:hidden;text-align:center;height:79px;width:82px;}
+
+ul li.img1_1 a{background:url(../images/m_customer01_.gif) no-repeat 0 0;}
+ul li.img1_2 a{background:url(../images/m_customer02_.gif) no-repeat 0 0;}
+ul li.img1_3 a{background:url(../images/m_customer03_.gif) no-repeat 0 0;}
+ul li.img1_4 a{background:url(../images/m_customer04_.gif) no-repeat 0 0;}
+ul li.img1_5 a{background:url(../images/m_customer05_.gif) no-repeat 0 0;}
+ul li.img1_6 a{background:url(../images/m_customer06_.gif) no-repeat 0 0;}
+.customer a:hover{background-position:0 -79px;}
+
+/* notice_news */
+.notice_news{float:left;width:402px;border-right:1px solid #ededed;border-left:1px solid #ededed;padding-bottom:15px;}
+.notice{position:relative;border-bottom:1px dashed #ded4d4;padding-bottom:20px;padding-right:20px;}
+.notice li, .news li{line-height:150%;width:355px;padding-left:25px;background:url(../images/main_b01.gif) no-repeat 5% 50%;}
+.news{position:relative;}
+p.more{position:absolute;right:20px;top:20px;}
+span{position:absolute;right:20px;color:#a3a3a3;}
+.play_btn2{position:absolute;top:18px;right:280px;}
+
+/* quick */
+.quick{float:left;width:402px;}
+.quick ul{padding-left:45px;}
+.quick li{float:left;padding-bottom:20px;margin-right:20px;}
+
+/* aside */
+ul.aside{position:absolute;top:0;right:0;width:73px;background:url(../images/main_snb_op_bg.gif) repeat-y 0 100% ;padding-bottom:62px;}
+.aside a{display:block;text-indent:-9999px;overflow:hidden;}
+ul li.aside_img{background:url(../images/main_snb_pro_app.gif) no-repeat 0 0;height:83px;}
+ul li.aside_img_1 a{background:url(../images/main_snb_pro_view01_.gif) no-repeat 0 0;height:88px;}
+ul li.aside_img_2 a{background:url(../images/main_snb_pro_view02_.gif) no-repeat 0 0;height:90px;}
+ul li.aside_img_3 a{background:url(../images/main_snb_pro_view03_.gif) no-repeat 0 0;height:90px;}
+ul li.aside_img_4 a{background:url(../images/main_snb_pro_view04_.gif) no-repeat 0 0;height:90px;}
+ul li.aside_img_5 a{background:url(../images/main_snb_pro_view05_.gif) no-repeat 0 0;height:90px;}
+ul li.aside_img_6 a{background:url(../images/main_snb_pro_view06_.gif) no-repeat 0 0;height:90px;}
+ul li.aside_img_7{background:url(../images/main_snb_pro_view07.gif) no-repeat 0 0;height:88px;}
+.aside a:hover{background-position:0 -90px;}
+
+/* footer_inner */
+/*#footer *{border:1px solid red;}*/
+.footer_inner{position:relative;}
+.footer_inner p{float:left;width:135px;height:108px;padding-top:10px;}
+
+.footer_ul{padding-bottom:30px;}
+
+
+.footer_ul li{float:left;padding-right:16px;margin-right:10px;background:url(../images/line.gif) no-repeat 100% 50%;}
+ul li.last{background:none;}
+
+.address{position:absolute;top:0;left:0;}
+
+.footer_label{position:absolute;top:80px;right:300px;}
+.footer_label li{float:left;padding-right:20px;}
+form{position:absolute;top:75px;right:140px;} 
+#family{width:160px;height:20px;border:1px solid #ccc;color:#777;}
+label{width:150px;}

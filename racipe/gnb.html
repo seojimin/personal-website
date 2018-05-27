@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>라시피</title>
+<meta name="viewport" content="width=divice-width,initial-scale=1.0, maximum-scale=1.0,minimun-scale=1.0, user-scalable=no " />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="apple-touch-icon-precomposed" href=".png" />
+<link rel="apple-touch-startup-image" href=".png" />
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/gnb.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script>
+// <![CDATA[
+	try	{
+		window.accEventListener('load' , function(){ //주소입력창 사라지게하는 코드
+			setTimeout(scrollTo, 0, 0, 1);
+		}, false);
+	} catch(e) {}
+// ]]>
+</script>
+</head>
+<body>
+<header>
+	<h1 class="logo"><a href="join.html"><img src="images/logo.png" alt="로고" /></a></h1>
+	<a href="join.html" class="backBtn"><img src="images/back_Btn.png" alt="뒤로가기버튼" /></a>
+	<a href="#" class="allMenuBtn"><img src="images/rollMenu.png" alt="전체메뉴버튼" /></a>	
+	<nav class="gnb">
+		<ul>
+		<li><a href="menu_best.html">빨간국물</a></li>
+		<li><a href="menu_best.html">하얀국물</a></li>
+		<li><a href="menu_best.html">짜장라면</a></li>
+		<li><a href="menu_best.html">비빔라면</a></li>
+		<li><a href="menu_best.html">볶음라면</a></li>
+		<li><a href="menu_best.html">냉라면</a></li>
+		<li><a href="menu_best.html">PB제품</a></li>
+		<li><a href="menu_best.html">퓨전라면</a></li>
+		</ul>
+	</nav>
+	<!-- 전체메뉴 -->
+	<div class="allMenuBg"></div>
+	<div class="allMenu">
+		<a href="#" class="closeBtn"><img src="images/closeBtn.png" alt="전체메뉴닫기" /></a>
+		<div class="user"><p>홍길동<br /><span>Seoul,Korea</span></p></div>
+		<ul>
+		<li><a href="#">내정보변경</a></li>
+		<li><a href="#">설정</a></li>
+		</ul>
+		<ul class="mobileGnb">
+		<li><a href="menu_best.html">빨간국물</a></li>
+		<li><a href="menu_best.html">하얀국물</a></li>
+		<li><a href="menu_best.html">짜장라면</a></li>
+		<li><a href="menu_best.html">비빔라면</a></li>
+		<li><a href="menu_best.html">볶음라면</a></li>
+		<li><a href="menu_best.html">냉라면</a></li>
+		<li><a href="menu_best.html">PB제품</a></li>
+		<li><a href="menu_best.html">퓨전라면</a></li>
+		</ul>
+		<a href="join.html" class="logoutBtn"><img src="images/logout.png" alt="로그아웃" /></a>
+	</div>
+	<!-- //전체메뉴 -->
+</header>
+<hr />
+<footer>
+</footer>
+</body>
+</html>
